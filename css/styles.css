@@ -69,7 +69,10 @@ body {
 .main-button:hover {
     background-color: var(--homepage-button-color);
 }
-
+.smartphone:hover,
+.smartphone:focus{
+    fill:var(--logo-color-blue-blue);
+}
 /* ===header */
 .rem {
     display: flex;
@@ -104,14 +107,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
 }
 .smartphone{
-    margin-left: 305px;
-    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
 }
 .smart {
-    margin-right: 10px;
+    margin-left: 10px;
 }
 .listmp{
         padding-top: 32px;
@@ -136,7 +140,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    /* margin-left: 305px; */
+    margin-left: 305px;
 }
 .tel{
     line-height: 1.14;
@@ -195,6 +199,7 @@ body {
     padding-bottom: 0;
 }
 .sidebarh{
+    margin-top: 30px;
     font-weight: var(--font-weight700);
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -213,6 +218,22 @@ body {
 .sideb{
     width: 270px;
 }
+.itemremrem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yhn{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;  
+}
+.mnb{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #F5F4FA;
+}
 /* ===секция3=чем=мы=занимаемся==============================*/
 .doing{
     margin-bottom: 50px;
@@ -226,6 +247,20 @@ letter-spacing: 0.03em;
     margin-right: 30px;
 }
 /* ===секция4=Наша команда===================================*/
+.social-link{
+    margin-top: 16px;
+}
+.social-link:not(:last-child) {
+    margin-right: 10px;
+}
+
+.list-link{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    /* background-color: aqua; */
+}
 .name{
 font-size: 16px;
 line-height: 1.18;
