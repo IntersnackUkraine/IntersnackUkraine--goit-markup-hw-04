@@ -63,10 +63,10 @@ body {
 }
 /* ===фокус=изменение=цвета=============================== */
 .menu-item:hover,
-.menu-item:focus,{
+.menu-item:focus{
     color: var(--logo-color-blue-blue);
 } 
-.main-button:focus {
+.main-button:hover {
     background-color: var(--homepage-button-color);
 }
 
@@ -100,17 +100,30 @@ body {
     letter-spacing: 0.03em; 
 }
 /* ===меню========================== */
+.itemrem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.smartphone{
+    margin-left: 305px;
+    margin-right: 10px;
+}
+.smart {
+    margin-right: 10px;
+}
 .listmp{
         padding-top: 32px;
         padding-bottom: 32px;
 }
 .list .menu-li:not(:last-child){
-    margin-right: 50px;
-    background-color: aqua;
+    margin-right: 30px;
+
 }
 .list .item:not(:last-child){
-    margin-right: 50px;
-    background-color: aqua;
+    margin-right: 30px;
+
 }
 .menu-item{
     display: flex;
@@ -123,7 +136,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    margin-left: 331px;
+    /* margin-left: 305px; */
 }
 .tel{
     line-height: 1.14;
@@ -148,6 +161,9 @@ body {
 }
 
 .divbusiness {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+    url(/images/imgoverlay.png);
+    background-size: cover;
     background-color: var(--main-background-hooter-color);
     margin-right: auto;
     padding-top: 200px;
