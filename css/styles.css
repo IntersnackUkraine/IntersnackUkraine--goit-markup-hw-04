@@ -1,0 +1,338 @@
+/*=========================Сброс========================= */
+.list {
+    list-style: none;
+    text-decoration: none;
+    font-family:  inherit;
+    display: flex;
+}
+h1,h2,h3,h4,p {
+margin-top: 0;
+margin-bottom: 0;
+}
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/*===по умолчанию======================================== */
+body { 
+    background-color: var(--main-header-background-size);
+    color: var(--border-top-color);
+    font-family: var(--font-family);
+    font-style:  normal;
+    font-size:   14px;
+    font-weight: 500;
+    margin: 0;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+    margin: auto;
+}    
+:root {
+    /*===background-color================================ */
+    --main-header-background-size:      #FFFFFF;
+    --main-background-section-one:      #2F303A;
+    --main-background-section-two:      #E5E5E5;
+    --main-background-section-button:   #F5F4FA;
+    --main-background-hooter-color:     #2F303A;
+    /*===font color===================================== */
+                --logo-color-blue-blue: #2196F3;
+                --primary-text-color:   #757575;
+                --border-top-color:     #212121;
+    /*===homepage button color===========================*/
+                --homepage-button-color:#188CE8;
+    /*===font============================================*/
+    --font-family:  'Roboto';
+    --font-roboto:  'Roboto';
+    --font-releway: 'Raleway';
+    --font-style: normal;
+    --font-weight700: 700;
+    --font-weight500: 500;
+    --font-weight400: 400;
+    --font-size14: 14px;
+    --font-size26: 26px;
+    --font-size36: 36px;
+    ---font-size14: 14px;
+}
+/* ===фокус=изменение=цвета=============================== */
+.menu-item:hover,
+.menu-item:focus,{
+    color: var(--logo-color-blue-blue);
+} 
+.main-button:focus {
+    background-color: var(--homepage-button-color);
+}
+
+/* ===header */
+.rem {
+    display: flex;
+    align-items: center;
+}
+/* ===logo================================================= */
+.logo{
+    text-decoration: none;
+    display: flex;
+        margin-right: 93px;
+        padding-top: 24px;
+        padding-bottom: 25px;
+}
+.logo-Wed{
+    font-family: var(--font-releway);
+    color: var(--logo-color-blue-blue);
+    font-weight: var(--font-weight700);
+    font-size: var(--font-size26);
+    line-height: 1.19;
+    letter-spacing: 0.03em; 
+}
+.logo-Studio{
+    font-family: var(--font-releway);
+    color: var(--border-top-color);
+    font-weight: var(--font-weight700);
+    font-size: var(--font-size26);
+    line-height: 1.19;
+    letter-spacing: 0.03em; 
+}
+/* ===меню========================== */
+.listmp{
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
+.list .menu-li:not(:last-child){
+    margin-right: 50px;
+    background-color: aqua;
+}
+.list .item:not(:last-child){
+    margin-right: 50px;
+    background-color: aqua;
+}
+.menu-item{
+    display: flex;
+    text-decoration: none;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--border-top-color);
+}
+.mailto{
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    margin-left: 331px;
+}
+.tel{
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+/* ===секция=эффективные решения для вашего бизнеса==== */
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.business-solution{
+    width: 696px;
+    margin: auto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-header-background-size);
+}
+
+.divbusiness {
+    background-color: var(--main-background-hooter-color);
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/*===кнопка=заказать=услугу============================= */
+.main-button{
+        background-color: var(--logo-color-blue-blue);
+        font-family: var(--font-roboto);
+        color: var(--main-header-background-size);
+        font-weight: var(--font-weight700);
+        font-style: var(--font-style);
+        border: none;
+        min-width: 50px;
+        padding: 10px 32px;
+        border-radius: 4px;
+        cursor: pointer;
+        line-height: 1.87;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        margin: auto;
+        margin-top: 50px;
+}
+/* ===секция2============================================== */
+.pad{
+    padding-bottom: 0;
+}
+.sidebarh{
+    font-weight: var(--font-weight700);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.sidebarp{
+    margin-top: 10px;
+    font-weight: var(--font-weight400);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.sideb:not(:last-child){ 
+    margin-right: 30px;
+}
+.sideb{
+    width: 270px;
+}
+/* ===секция3=чем=мы=занимаемся==============================*/
+.doing{
+    margin-bottom: 50px;
+font-weight: var(--font-weight700);
+font-size: var(--font-size36);
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.technicalim:not(:last-child) {
+    margin-right: 30px;
+}
+/* ===секция4=Наша команда===================================*/
+.name{
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.jobtitle{
+    margin-top: 10px;
+font-weight: var(--font-weight400);
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+.team{
+    background-color: #F5F4FA;
+}
+.our-teamo:not(:last-child){
+    margin-right: 30px;
+}
+.namejobtitle{
+        background-color: var(--main-header-background-size);
+    padding: 30px;
+}
+/* ===footer================================================= */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--main-background-hooter-color);
+}
+.logo-studio-footer{
+font-family: 'Raleway';
+font-weight: var(--font-weight700);
+font-size: var(--font-size26);
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--main-header-background-size);
+}
+.address{
+    margin-top: 20px;
+font-style: var(--font-style);
+font-weight: var(--font-weight400);
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--main-header-background-size);
+}
+.tel-footer{
+    margin-top: 9px;
+font-style: var(--font-style);
+font-weight: var(--font-weight400);
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+/* ===портфолио=============================== */
+.borhed {
+    border-bottom: solid 1px #EEEEEE;
+}
+
+.button-portolio {
+    margin-left: 8px;
+    border: none;
+    font-family: var(--font-roboto);
+    background-color: var(--main-background-section-button);
+    color: var(--main-header-color);
+    font-weight: var(--font-weight500);
+    font-size: 16px;
+    line-height: 1.65;
+    padding: 6px 22px;
+    border-radius: 4px;
+    letter-spacing: 0.03em;
+}
+.button-portolio:hover {
+    background-color: var(--logo-color-blue-blue);
+    color: var(--main-header-background-size);
+    cursor: pointer;
+}
+.borhed {
+    border-bottom: solid 1px #EEEEEE;
+}
+/* h1 */
+.none {
+display: none;
+}
+.button-p {
+    margin-bottom: 50px;
+}
+.one {
+    margin-left: 280px;
+}
+.qwe{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 30px;
+}
+.borhed {
+    border-bottom: solid 1px #EEEEEE;
+}
+.productweb{
+    padding: 20px 24px 20px 24px;
+    border: solid 1px #EEEEEE;
+}
+.sectportfolio {
+    padding-bottom: 104px;
+    padding-top: 84px;
+}
+.productweb{
+        padding: 20px 24px 20px 24px;
+    border: solid 1px #EEEEEE;
+}
+.product{
+font-weight: var(--font-weight700);
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--border-top-color);
+}
+.web{
+font-weight: var(--font-weight400);
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
