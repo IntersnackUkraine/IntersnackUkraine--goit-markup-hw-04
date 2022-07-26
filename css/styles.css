@@ -105,6 +105,21 @@ body {
     letter-spacing: 0.03em; 
 }
 /* ===меню========================== */
+.icon-envelope{
+    fill: #757575;
+}
+.icon-smartphone{
+    fill: #757575;
+}
+.menu-item:hover .icon-envelope
+{
+    fill: var(--logo-color-blue-blue);
+}
+.menu-item:hover .icon-smartphone
+{
+    fill: var(--logo-color-blue-blue);
+}
+
 .itemrem{
     display: flex;
     align-items: center;
@@ -145,7 +160,6 @@ body {
     margin-left: 305px;
 }
 .tel{
-    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
@@ -334,8 +348,38 @@ color: var(--primary-text-color);
     padding-bottom: 25px;
     background-color: var(--main-header-background-size);
 }
-
 /* ===footer================================================= */
+.footer-icon{
+    fill: var(--main-header-background-size)
+}
+.list-linkrem-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.list-linkrem-footer:hover,
+.list-linkrem-footer:focus {
+    background-color: var(--logo-color-blue-blue);
+}
+.name-footer{
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.footer-wrapper{
+    display: flex;
+    align-items: baseline;
+}
+.footer-wrapper-item{
+margin-left: 72px;
+}
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -350,7 +394,6 @@ letter-spacing: 0.03em;
 color: var(--main-header-background-size);
 }
 .address{
-    margin-top: 20px;
 font-style: var(--font-style);
 font-weight: var(--font-weight400);
 line-height: 1.71;
@@ -395,9 +438,9 @@ color: rgba(255, 255, 255, 0.6);
 .qwet{
 cursor:pointer;
 }
-.borhed {
+/* .borhed {
     border-bottom: solid 1px #EEEEEE;
-}
+} */
 /* h1 */
 .none {
 display: none;
@@ -414,9 +457,9 @@ display: none;
     /* justify-content: space-between; */
     gap: 30px;
 }
-.borhed {
+/* .borhed {
     border-bottom: solid 1px #EEEEEE;
-}
+} */
 .productweb{
     padding: 20px 24px 20px 24px;
     border: solid 1px #EEEEEE;
@@ -425,10 +468,7 @@ display: none;
     padding-bottom: 104px;
     padding-top: 84px;
 }
-.productweb{
-        padding: 20px 24px 20px 24px;
-    border: solid 1px #EEEEEE;
-}
+
 .product{
 font-weight: var(--font-weight700);
 font-size: 18px;
