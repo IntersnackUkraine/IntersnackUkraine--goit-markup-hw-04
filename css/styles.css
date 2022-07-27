@@ -183,13 +183,17 @@ body {
 }
 
 .divbusiness {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+    background-color: var(--main-background-hooter-color);
+    width: 1600px;
+    margin: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
     url(/images/imgoverlay.png);
     background-size: cover;
-    background-color: var(--main-background-hooter-color);
-    margin-right: auto;
+    /* margin-right: auto; */
     padding-top: 200px;
     padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*===кнопка=заказать=услугу============================= */
