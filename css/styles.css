@@ -75,6 +75,7 @@ body {
 .smartphone:focus{
     fill:var(--logo-color-blue-blue);
 }
+
 /* ===header */
 .rem {
     display: flex;
@@ -438,10 +439,7 @@ color: rgba(255, 255, 255, 0.6);
 .qwet{
 cursor:pointer;
 }
-/* .borhed {
-    border-bottom: solid 1px #EEEEEE;
-} */
-/* h1 */
+
 .none {
 display: none;
 }
@@ -454,8 +452,9 @@ display: none;
 .qwe{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
     gap: 30px;
+    box-sizing: content-box;
+
 }
 /* .borhed {
     border-bottom: solid 1px #EEEEEE;
