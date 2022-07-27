@@ -120,7 +120,9 @@ body {
 {
     fill: var(--logo-color-blue-blue);
 }
-
+.yu{
+    margin-right: 10px;
+}
 .itemrem{
     display: flex;
     align-items: center;
@@ -130,10 +132,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 10px;
 }
 .smart {
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .listmp{
         padding-top: 32px;
@@ -299,6 +300,9 @@ line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
 }
+.clirngrup{
+    margin-bottom: 94px
+}
 .jobtitle{
     margin-top: 10px;
 font-weight: var(--font-weight400);
@@ -337,7 +341,7 @@ color: var(--primary-text-color);
         border: transparent;
         border: solid 1px #AFB1B8;
         border-radius: 4px;
-        margin-bottom: 94px;
+        /* margin-bottom: 94px; */
         cursor: pointer;
 }
 .client:hover,
