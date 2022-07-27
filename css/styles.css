@@ -237,9 +237,12 @@ box-sizing: content-box;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-.sideb:not(:last-child){ 
-    margin-right: 30px;
+.sideb{
+    gap: 30px;
 }
+/* .sideb:not(:last-child){ 
+    margin-right: 30px;
+} */
 .itemremrem{
     display: flex;
     align-items: center;
@@ -251,17 +254,27 @@ box-sizing: content-box;
     padding-bottom: 25px;
     background-color: #F5F4FA;
 }
+.mvbb{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
 /* ===секция3=чем=мы=занимаемся==============================*/
 .doing{
-    margin-bottom: 50px;
+margin-bottom: 50px;
 font-weight: var(--font-weight700);
 font-size: var(--font-size36);
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 }
-.technicalim:not(:last-child) {
-    margin-right: 30px;
+.technicalim{
+    gap: 30px;
+}
+.technicali{
+        align-items: center;
+        justify-content: center;
+        border: transparent;
 }
 /* ===секция4=Наша команда===================================*/
 
@@ -310,19 +323,19 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 .jio{
-    border: transparent;
-    border-radius: 4px;
-    box-shadow: var(--shadow)
+        border: transparent;
+        border-radius: 4px;
+        box-shadow: var(--shadow)
     
 }
 .team{
     background-color: #F5F4FA;
 }
-.our-teamo:not(:last-child){
+/* .our-teamo:not(:last-child){
     margin-right: 30px;
-}
+} */
 .namejobtitle{
-        background-color: var(--main-header-background-size);
+    background-color: var(--main-header-background-size);
     padding: 30px;
 }
 /* ===Постоянные клиенты======== */
@@ -379,12 +392,17 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
+.logofooter{
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 20px;
+}
 .footer-wrapper{
     display: flex;
     align-items: baseline;
 }
 .footer-wrapper-item{
-margin-left: 72px;
+margin-right: 70px;
 }
 .footer {
     padding-top: 60px;
