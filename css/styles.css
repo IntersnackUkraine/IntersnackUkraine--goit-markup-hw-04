@@ -68,7 +68,8 @@ body {
     color: var(--logo-color-blue-blue);
 } 
 
-.main-button:hover {
+.main-button:hover,
+.main-button:focus {
     background-color: var(--homepage-button-color);
 }
 .smartphone:hover,
@@ -324,21 +325,18 @@ color: var(--primary-text-color);
 }
 .jio{
         border: transparent;
-        border-radius: 4px;
-        box-shadow: var(--shadow)
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     
 }
 .team{
     background-color: #F5F4FA;
 }
-/* .our-teamo:not(:last-child){
-    margin-right: 30px;
-} */
 .namejobtitle{
     background-color: var(--main-header-background-size);
     padding: 30px;
 }
-/* ===Постоянные клиенты======== */
+/* ===Постоянные клиенты==================================== */
 .client-list-icon{
     fill: #AFB1B8;
 }
@@ -363,11 +361,21 @@ color: var(--primary-text-color);
     border-color: var(--logo-color-blue-blue);
 }
 .mnb-client{
+        /* width: 100%;
+        height: 100%; */
     width: 106px;
     right: 60px;
     background-color: var(--main-header-background-size);
 }
 /* ===footer================================================= */
+.social-link-foo{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.social-link-foo:not(:last-child) {
+    margin-right: 10px;
+}
+
 .footer-icon{
     fill: var(--main-header-background-size)
 }
@@ -450,7 +458,8 @@ color: rgba(255, 255, 255, 0.6);
     border-radius: 4px;
     letter-spacing: 0.03em;
 }
-.button-portolio:hover {
+.button-portolio:hover,
+.button-portolio:focus {
     background-color: var(--logo-color-blue-blue);
     color: var(--main-header-background-size);
     cursor: pointer;
