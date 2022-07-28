@@ -64,16 +64,15 @@ body {
 }
 /* ===фокус=изменение=цвета=============================== */
 .menu-item:hover,
-.menu-item:focus{
+.menu-item:focus {
     color: var(--logo-color-blue-blue);
 } 
-
 .main-button:hover,
 .main-button:focus {
     background-color: var(--homepage-button-color);
 }
 .smartphone:hover,
-.smartphone:focus{
+.smartphone:focus {
     fill:var(--logo-color-blue-blue);
 }
 /* ===header */
@@ -115,11 +114,13 @@ box-sizing: content-box;
 .icon-smartphone{
     fill: #757575;
 }
-.menu-item:hover .icon-envelope
+.menu-item:hover .icon-envelope,
+.menu-item:focus .icon-envelope
 {
     fill: var(--logo-color-blue-blue);
 }
-.menu-item:hover .icon-smartphone
+.menu-item:hover .icon-smartphone,
+.menu-item:focus .icon-smartphone
 {
     fill: var(--logo-color-blue-blue);
 }
