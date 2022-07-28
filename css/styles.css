@@ -192,9 +192,7 @@ box-sizing: content-box;
     margin: auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
     url(../images/imgoverlay.jpg);
-    
     background-size: cover;
-    /* margin-right: auto; */
     padding-top: 200px;
     padding-bottom: 200px;
     background-repeat: no-repeat;
@@ -242,9 +240,6 @@ box-sizing: content-box;
 .sideb{
     gap: 30px;
 }
-/* .sideb:not(:last-child){ 
-    margin-right: 30px;
-} */
 .itemremrem{
     display: flex;
     align-items: center;
