@@ -249,7 +249,10 @@ box-sizing: content-box;
     align-items: center;
     justify-content: center;
 }
-
+.mnbr{
+    width: 270px;
+    right: 120px;
+}
 .mnb{
     padding-top: 25px;
     padding-bottom: 25px;
