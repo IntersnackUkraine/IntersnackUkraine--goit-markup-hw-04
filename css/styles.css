@@ -66,7 +66,12 @@ body {
 .menu-item:hover,
 .menu-item:focus {
     color: var(--logo-color-blue-blue);
-} 
+}
+.menu-item-van:hover,
+.menu-item-van:focus
+{
+    color: var(--logo-color-blue-blue);
+}
 .main-button:hover,
 .main-button:focus {
     background-color: var(--homepage-button-color);
@@ -124,6 +129,18 @@ box-sizing: content-box;
 {
     fill: var(--logo-color-blue-blue);
 }
+
+.menu-item-van:hover .icon-envelope,
+.menu-item-van:focus .icon-envelope
+{
+    fill: var(--logo-color-blue-blue);
+}
+.menu-item-van:hover .icon-smartphone,
+.menu-item-van:focus .icon-smartphone
+{
+    fill: var(--logo-color-blue-blue);
+}
+
 .yu{
     margin-right: 10px;
 }
@@ -131,6 +148,7 @@ box-sizing: content-box;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--primary-text-color);
 }
 .smartphone{
     display: flex;
@@ -158,6 +176,13 @@ box-sizing: content-box;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--border-top-color);
+}
+.menu-item-van{
+    display: flex;
+    text-decoration: none;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 .mailto{
     line-height: 1.14;
@@ -311,7 +336,8 @@ letter-spacing: 0.03em;
     background-color: var(--main-header-background-size);
 }
 .name{
-
+font-style: normal;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
@@ -364,8 +390,6 @@ color: var(--primary-text-color);
     border-color: var(--logo-color-blue-blue);
 }
 .mnb-client{
-        /* width: 100%;
-        height: 100%; */
     width: 106px;
     right: 60px;
     background-color: var(--main-header-background-size);
